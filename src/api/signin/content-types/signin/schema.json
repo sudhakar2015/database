@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "signins",
+  "info": {
+    "singularName": "signin",
+    "pluralName": "signins",
+    "displayName": "Signin",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "Password": {
+      "type": "password",
+      "required": true
+    }
+  }
+}
